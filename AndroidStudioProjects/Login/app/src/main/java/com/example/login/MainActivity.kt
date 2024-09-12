@@ -62,7 +62,7 @@ fun LoginUI(context: Context) {
     ) {
 
         Text (
-            text = "Login here",
+            text = "PLEASE Login here",
             //fontFamily = FontFamily.Serif,
             textAlign = TextAlign.Left,
             //fontSize = 40.sp,
@@ -108,7 +108,7 @@ fun LoginUI(context: Context) {
 
 fun logged( email: String, password: String, context: Context ) {
     if(email == "zoe" && password == "123") {
-        Toast.makeText(context, "Login successful", Toast.LENGTH_SHORT).show()
+        Toast.makeText(context, "Login mostly successful", Toast.LENGTH_SHORT).show()
     }else
     {
         Toast.makeText(context, "Login failed", Toast.LENGTH_SHORT).show()
